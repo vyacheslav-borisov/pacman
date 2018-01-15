@@ -1,0 +1,190 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// русский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PACMAN              ICON                    "pacman.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_PACMAN MENU 
+BEGIN
+    POPUP "&Файл"
+    BEGIN
+        MENUITEM "В&ыход",                      IDM_EXIT
+    END
+    POPUP "&Справка"
+    BEGIN
+        MENUITEM "&О программе ...",            IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_PACMAN ACCELERATORS 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О проекте pacman"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            128,IDC_STATIC,14,14,21,20
+    LTEXT           "pacman, версия 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2013",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "ОК",IDOK,113,41,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PILL_TILE           BITMAP                  "media\\pill_tile.bmp"
+IDB_SUPER_PILL_TILE     BITMAP                  "media\\super_pill_tile.bmp"
+IDB_PACMAN_LOGO         BITMAP                  "media\\bitmap1.bmp"
+IDB_MAZE                BITMAP                  "media\\bmp00001.bmp"
+IDB_PILL_TILE2          BITMAP                  "media\\pill_tile2.bmp"
+IDB_PACMAN_EDITOR_TILE  BITMAP                  "media\\pacman_editor_tile.bmp"
+IDB_BLINKY_EDITOR_TILE  BITMAP                  "media\\blinki_editor_tile.bmp"
+IDB_PINKY_EDITOR_TILE   BITMAP                  "media\\pinky_editor_tile.bmp"
+IDB_INKY_EDITOR_TILE    BITMAP                  "media\\inky_editor_tile.bmp"
+IDB_CLYDE_EDITOR_TILE   BITMAP                  "media\\clyde_editor_tile.bmp"
+IDB_TUNNEL_EDITOR_TILE  BITMAP                  "media\\tunnel_editor_tile.bmp"
+IDB_PACMAN_STATIC_SPRITE BITMAP                  "media\\pacman_static_sprite.bmp"
+IDB_BONUS_EDITOR_TILE   BITMAP                  "media\\bonus_editor_tile.bmp"
+IDB_BONUS_STATIC_SPRITE BITMAP                  "media\\bonus_static_sprite.bmp"
+IDB_SCORES_TEXT         BITMAP                  "media\\scores_text.bmp"
+IDB_LIVES_TEXT          BITMAP                  "media\\lives_text.bmp"
+IDB_GET_READY_TEXT      BITMAP                  "media\\get_ready.bmp"
+IDB_BLINKY_STATIC_SPRITE BITMAP                  "media\\blinky_static_sprite.bmp"
+IDB_PINKY_STATIC_SPRITE BITMAP                  "media\\pinky_static_sprite.bmp"
+IDB_INKY_STATIC_SPRITE  BITMAP                  "media\\inky_static_sprite.bmp"
+IDB_CLYDE_STATIC_SPRITE BITMAP                  "media\\clyde_static_sprite.bmp"
+IDB_TUNNEL_STATIC_SPRITE BITMAP                  "media\\tunnel_static_sprite.bmp"
+IDB_CHARACTERS          BITMAP                  "media\\animation_sprite_sheet.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "pacman"
+    IDC_PACMAN              "PACMAN"
+END
+
+#endif    // русский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
